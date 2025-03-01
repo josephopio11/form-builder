@@ -1,5 +1,5 @@
-import { describe, it, expect } from 'vitest';
-import { isNotEmpty } from '../lib/utils'
+import { describe, expect, it } from 'vitest';
+import { isNotEmpty } from '../lib/utils';
 
 describe('isNotEmpty', () => {
   it('should return true for non-empty strings', () => {

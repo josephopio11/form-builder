@@ -1,6 +1,6 @@
-import { describe, it, expect, vi } from 'vitest';
-import { cn } from '../lib/utils';
 import { twMerge } from 'tailwind-merge';
+import { describe, expect, it, vi } from 'vitest';
+import { cn } from '../lib/utils';
 
 vi.mock('tailwind-merge', () => ({
   twMerge: vi.fn((input) => input),

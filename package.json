@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "postbuild": "next-sitemap",
-    "start": "next start",
+    "start": "next start",    "cleanup": "rm -rf node_modules/ && rm -rf .next/",
+
     "lint": "next lint",
     "test": "vitest"
   },
